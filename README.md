@@ -51,7 +51,7 @@ import init, { is_prime, nth_prime } from "./pkg/is_prime.js";
 })();
 ```
 
-> **Note:** To run the `example.html` file, you need to serve it from a web server. Opening the file directly in the browser may not work due to security restrictions on loading WebAssembly modules. You can use a simple HTTP server like `http-server` or `python -m http.server` to serve the file safely.
+> **Note:** To run this html code, you need to serve it from a web server. Opening the file directly in the browser may not work due to security restrictions on loading WebAssembly modules. You can use a simple HTTP server like `python -m http.server` to serve the file safely.
 
 ```html
 <!DOCTYPE html>
